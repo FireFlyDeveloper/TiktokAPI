@@ -115,6 +115,10 @@ app.get('/downloadTiktok', async (req, res) => {
     }
 });
 
+app.get('/', async (req, res) => {
+    res.json({ message: "Tiktok API", github: "https://github.com/FireFlyDeveloper/TiktokAPI.git", author: "Kim Eduard Saludes" });
+});
+
 // Start the Express server
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
