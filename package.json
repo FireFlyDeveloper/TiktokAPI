@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-api",
+  "version": "1.0.0",
+  "description": "Tiktok API without watermark.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireFlyDeveloper/TiktokAPI.git"
+  },
+  "author": "Saludes, Kim Eduard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FireFlyDeveloper/TiktokAPI/issues"
+  },
+  "homepage": "https://github.com/FireFlyDeveloper/TiktokAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
+}
