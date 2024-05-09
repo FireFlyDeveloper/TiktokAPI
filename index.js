@@ -98,7 +98,7 @@ async function downloadTiktok(url) {
     }
 }
 
-const tiktokUrlRegex = /^https:\/\/vt\.tiktok\.com\/[a-zA-Z0-9]{8,}\/?$/;
+const tiktokUrlRegex = /(?:http(?:s)?:\/\/)?(?:www\.)?tiktok\.com\/@[^\/\?\s]+\/video\/[^\/\?\s]+/gi;
 
 // API to get video information
 app.get('/downloadTiktok', async (req, res) => {
